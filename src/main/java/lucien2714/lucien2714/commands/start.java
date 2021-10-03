@@ -44,6 +44,8 @@ public class start implements CommandExecutor {
                     e.printStackTrace();
                 }
                 GameStatus.gameStatus=GameStatus.gameState.Started;
+            }else{
+                sendMessageToAll("人数不足，未准备之人(输入/ready来准备):"+notReady);
             }
         } else {
             sendMessageToAll("游戏已开始!请勿重新启动!");

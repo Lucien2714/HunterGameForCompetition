@@ -73,6 +73,7 @@ public class chooseTeam implements Listener {
                     GameStatus.Hunter.remove(player);
                     GameStatus.careerSelected[temp] = 0;
                     player.p.sendMessage(components.createComponent("您已选择 ").append(GameStatus.team[temp].getItemMeta().displayName()).append(components.createComponent("职业")));
+                    player.p.getEquipment().setHelmet(GameStatus.team[player.career]);
                     player.ready = true;
                 } else {
                     player.p.closeInventory();
