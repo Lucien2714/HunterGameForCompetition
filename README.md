@@ -1,6 +1,8 @@
 # HunterGameForCompetition
  HunterGameForCompetition
  
+ 背景：mc 1.17.1，Java16，papermc服务端
+ 
 待开发:
 
 1.选完职业后带上头盔
