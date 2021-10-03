@@ -1,0 +1,13 @@
+name: HunterGameForCompetition
+version: '${project.version}'
+main: lucien2714.lucien2714.HunterGameForCompetition
+api-version: 1.17
+authors: [ Lucien2714 ]
+description: HunterGameForCompetition
+commands:
+  debug:
+    description: debug use
+  ready:
+    description: 准备
+  start:
+    description: 开始游戏
