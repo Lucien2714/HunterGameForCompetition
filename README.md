@@ -1,3 +1,5 @@
+弃坑状态 有空重置
+
 # HunterGameForCompetition
  HunterGameForCompetition
  
